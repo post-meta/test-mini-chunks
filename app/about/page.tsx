@@ -2,22 +2,32 @@ import React from 'react';
 import Link from 'next/link';
 
 export default function AboutPage() {
-  const business = "Test Mini Closets";
+  const business = "Test Mini Chunks";
   const location = "Seattle, WA";
-  const phone = "(206) 555-0100";
+  const phone = "206-555-0100";
   
   const aboutContent = {
-  "heading": "Revolutionizing Seattle's Storage Solutions Daily",
-  "story": [
-    "Test Mini Closets began in Seattle with a simple vision: transforming how urban dwellers manage their belongings in compact living spaces throughout the Pacific Northwest.",
-    "We specialize in custom-designed mini storage solutions that maximize functionality while maintaining aesthetic appeal, helping Seattle residents optimize their homes with innovative organizational systems."
-  ],
-  "mission": "To provide Seattle homeowners with innovative, space-efficient storage solutions that transform cluttered spaces into organized, functional environments that enhance daily living experiences.",
-  "values": {
-    "title": "Quality Craftsmanship",
-    "description": "We deliver exceptional storage solutions using premium materials and precise construction techniques that ensure lasting durability and functionality."
-  }
-};
+    heading: "About Test Mini Chunks",
+    story: [
+      "Test Mini Chunks has been serving Seattle with exceptional cleaning services since our founding.",
+      "Our dedicated team brings years of experience and a commitment to excellence in every job we undertake."
+    ],
+    mission: "To provide the highest quality cleaning services to homes and businesses in Seattle, WA.",
+    values: [
+      {
+        title: "Excellence",
+        description: "We deliver exceptional cleaning services with meticulous attention to detail."
+      },
+      {
+        title: "Reliability",
+        description: "Our clients trust us to deliver consistent, professional service every time."
+      },
+      {
+        title: "Integrity",
+        description: "We conduct our business with honesty, transparency, and respect for our clients."
+      }
+    ]
+  };
 
   return (
     <div className="min-h-screen bg-white">
