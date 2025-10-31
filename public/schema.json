@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Test Mini Closets",
+  "description": "Professional closet services in Seattle, WA",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Seattle",
+    "addressRegion": "WA",
+    "addressCountry": "US"
+  },
+  "telephone": "(206) 555-0100",
+  "email": "test@testclosets.com",
+  "url": "https://test-mini-chunks.vercel.app",
+  "priceRange": "$$",
+  "areaServed": {
+    "@type": "City",
+    "name": "Seattle"
+  },
+  "serviceType": "closet",
+  "slogan": "Your trusted closet experts",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "127"
+  }
+}
