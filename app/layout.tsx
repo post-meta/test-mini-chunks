@@ -3,14 +3,20 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Test Mini Closets | Custom Closet Solutions in Seattle, WA',
-  description: 'Professional custom closet design and installation services in Seattle, Washington. Transform your space with our premium closet organization solutions.',
-  keywords: 'custom closets, closet design, closet installation, Seattle closets, closet organization, storage solutions',
+  description: 'Transform your space with custom closet designs and organization solutions in Seattle, Washington. Professional installation, quality materials, and personalized storage systems.',
+  keywords: 'custom closets, closet organization, Seattle closets, storage solutions, closet design, walk-in closets, reach-in closets, closet systems',
   authors: [{ name: 'Test Mini Closets' }],
   creator: 'Test Mini Closets',
   publisher: 'Test Mini Closets',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL('https://testminiclosets.com'),
   openGraph: {
     title: 'Test Mini Closets | Custom Closet Solutions in Seattle, WA',
-    description: 'Professional custom closet design and installation services in Seattle, Washington. Transform your space with our premium closet organization solutions.',
+    description: 'Transform your space with custom closet designs and organization solutions in Seattle, Washington.',
     url: 'https://testminiclosets.com',
     siteName: 'Test Mini Closets',
     locale: 'en_US',
@@ -19,7 +25,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Test Mini Closets | Custom Closet Solutions in Seattle, WA',
-    description: 'Professional custom closet design and installation services in Seattle, Washington.',
+    description: 'Transform your space with custom closet designs and organization solutions in Seattle, Washington.',
   },
   robots: {
     index: true,
@@ -43,20 +49,17 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#ffffff" />
-        <link rel="canonical" href="https://testminiclosets.com" />
+        <link rel="icon" href="/favicon.ico" />
       </head>
       <body>
         <header>
-          <nav>
-            {/* Navigation will be implemented in components */}
+          <nav role="navigation" aria-label="Main navigation">
           </nav>
         </header>
-        <main>
+        <main role="main">
           {children}
         </main>
-        <footer>
-          {/* Footer will be implemented in components */}
+        <footer role="contentinfo">
         </footer>
       </body>
     </html>
