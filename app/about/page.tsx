@@ -2,31 +2,15 @@ import React from 'react';
 import Link from 'next/link';
 
 export default function AboutPage() {
-  const business = "Test Mini Chunks";
+  const business = "Test Mini Closets";
   const location = "Seattle, WA";
-  const phone = "206-555-0100";
+  const phone = "(206) 555-0100";
   
   const aboutContent = {
-    heading: "About Test Mini Chunks",
-    story: [
-      "Test Mini Chunks has been serving Seattle with exceptional cleaning services since our founding.",
-      "Our dedicated team brings years of experience and a commitment to excellence in every job we undertake."
-    ],
-    mission: "To provide the highest quality cleaning services to homes and businesses in Seattle, WA.",
-    values: [
-      {
-        title: "Excellence",
-        description: "We deliver exceptional cleaning services with meticulous attention to detail."
-      },
-      {
-        title: "Reliability",
-        description: "Our clients trust us to deliver consistent, professional service every time."
-      },
-      {
-        title: "Integrity",
-        description: "We conduct our business with honesty, transparency, and respect for our clients."
-      }
-    ]
+    heading: "Revolutionizing Seattle's Storage Solutions Daily",
+    story: ["Test Mini Closets began in Seattle with a simple vision: providing compact, efficient storage solutions for urban dwellers facing space challenges in the Pacific Northwest's bustling city.","Our innovative mini closet systems help Seattle residents maximize their living spaces while maintaining style and functionality, perfectly suited for apartments, condos, and small homes."],
+    mission: "To transform how Seattle residents organize and optimize their living spaces through innovative, space-saving mini closet solutions that blend functionality with modern design.",
+    values: [{"title":"Organized Living","description":"We believe every space should maximize functionality and beauty, creating harmony between your belongings and daily lifestyle needs."}]
   };
 
   return (

@@ -8,7 +8,7 @@ export default function ContactPage() {
   
   const contactContent = {
   "heading": "Get In Touch Today",
-  "description": "Ready to transform your storage space? Contact Test Mini Closets in Seattle for custom closet solutions and professional organization services."
+  "description": "Ready to transform your space with custom mini closets? Contact our Seattle team for a free consultation and personalized storage solutions."
 };
 
   return (

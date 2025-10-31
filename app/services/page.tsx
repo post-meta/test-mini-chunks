@@ -10,15 +10,15 @@ export default function ServicesPage() {
   const description = "Professional closet services in Seattle, WA";
   const services = [
   {
-    "id": "closet-organization",
-    "title": "Complete Closet Organization",
-    "shortDescription": "Transform your cluttered closet into an organized, efficient space with custom storage solutions, categorization systems, and professional styling for maximum functionality and visual appeal.",
+    "id": "custom-closet-design",
+    "title": "Custom Closet Design & Installation",
+    "shortDescription": "Transform your space with personalized closet solutions tailored to your storage needs, lifestyle, and aesthetic preferences for maximum organization efficiency.",
     "features": [
-      "Custom storage system design and installation",
-      "Clothing categorization and seasonal organization",
-      "Space optimization and decluttering consultation"
+      "Professional space assessment and planning",
+      "Custom shelving and drawer systems",
+      "Premium materials and finishes available"
     ],
-    "icon": "👗"
+    "icon": "🏗️"
   }
 ];
 
